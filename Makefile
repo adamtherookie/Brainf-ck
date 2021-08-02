@@ -29,5 +29,5 @@ clean:
 	@ echo "[ CLEAN ]"
 	@ rm -rf $(OFILES) $(TARGET)
 
-run:
+run: all
 	@ ./$(TARGET)
